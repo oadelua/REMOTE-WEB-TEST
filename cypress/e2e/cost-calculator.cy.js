@@ -4,7 +4,7 @@ describe('Remote Web Test', () => {
     cy.visit('/')
     cy.wait (3000)
     cy.get('#ccc-notify-accept').click()
-    cy.get('.sc-589ed288-4 > .sc-f5488d64-0 > [data-meta-row-node="1"] > .sc-8a2dfa49-0').click()
+    cy.get('.sc-a67a4d61-3 > .sc-f5488d64-0 > [data-meta-row-node="1"] > .sc-8a2dfa49-0').click()
     cy.get('[data-index="1"] > .label').click()
     cy.get('.inner-secondary > :nth-child(2) > :nth-child(1) > .page-list > :nth-child(2) > .sc-8a2dfa49-0').click()
     cy.get('.css-6y63e8').click()
